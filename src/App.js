@@ -1,5 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React, { useState, useEffect } from "react";
+import CreateUser from "./components/createUser";
+import { fetchMultipleGithubUsers } from "./components/githubAPI";
 
 function App() {
   return (
